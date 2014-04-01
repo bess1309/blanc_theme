@@ -1,0 +1,105 @@
+$sprite: url(../images/ico.png) no-repeat;
+
+$site-width: 960px;
+
+//	
+//	Sizes
+//	
+@import '../configuration/sizes.scss';
+	$content-bottom-padding: 40px;
+	$content-top-padding: 20px;
+	
+//	
+//	Colors
+//	
+@import '../configuration/colors.scss';
+	//text colors
+	$main-font-color: $gray9;
+	$secondary-font-color: $gray8;
+	$light-font-color: $gray5;
+	$bradcrambs-color: $gray5;
+	$discount-text-color: $white;
+	$title-color: $gray9;
+	$main-navigation-text-color: $white;
+	$mini-search-text-color: $gray7;
+	$current-price-text-color: $black;
+	$old-price-text-color: $gray7;
+	$category-toolbar-text-color: $gray5;
+	$error-message-color: $red;
+	$category-decsription-color: $gray7;
+	$mini-search-button: $white;
+	$snap-navigation-active: $orange1;
+	$snap-text-color: $white;
+	$snap-back-button-color: $gray7;
+	//Links colors
+	$main-link-color: $gray9;
+	$secondary-link-color: $gray7;
+	$bradcrambs-link-color: $secondary-font-color;
+	$accaunt-welcomemsg-link-color: $blue;
+	$noroute-page-links: $orange2;
+	//backgrounds
+	$main-background: $gray6;
+	$content-back: $white;
+	$snap-drawer-back: $gray9;
+	$discount-background: $orange1;
+	$mini-search-background: $gray9;
+	$mini-search-background-active: $white;
+	$default-hover-background: $gray3;
+	$pager-current-item-background: $gray9;
+	$footer-infoblock-background: $yellow1;
+	$dropdown-aside-background: $yellow1;
+	$acount-navigation-background: $yellow1;
+	$order-totals-background: $lightblue;
+	//Borders color
+	$main-border-color: $gray5;
+	$secondary-border-color: $gray4;
+	$mini-search-border: $gray8;
+	$footer-infoblock-border: $yellow2;
+	$product-zoom-thumb-active: $orange1;
+	$snap-border-color: $gray8;
+	//Shadows
+	$main-block-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+
+//	
+//	Gradients
+//	
+	$light-gradient: $gray1 $gray2 $gray2;
+	$main-navigation-background: #383838 #121212 #242424;
+
+//	
+//	Fonts
+//	
+	$main-font-family: Arial, Verdana, sans-serif;
+	$secondary-font-family: Arial, Verdana, sans-serif;
+
+//	
+//	Media sizes
+//	
+	$media-small-screen: 640px;
+	$media-medium-screen: 1024px;
+
+//	
+//	Grid configuration
+//	
+@import '../configuration/grid.scss';	
+
+//	
+//	Buttons
+//	
+@import '../configuration/buttons.scss';
+
+//
+//	Selects
+//	
+@import '../configuration/selects.scss';
+
+
+//
+//	Text fields, Textarea, Checkboxes, Radiobutons
+//	
+@import '../configuration/formElements.scss';
+
+//
+//	Tabs
+//	
+@import '../configuration/uiConfig.scss';

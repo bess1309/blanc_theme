@@ -1,0 +1,26 @@
+@import 'partials/mixins.scss';
+@import 'partials/variables.scss';
+
+@import 'partials/ie8GridFix.scss';
+
+.button{padding-top: 0;}
+
+input[type="checkbox"], input[type="radio"]{
+	display: inline;
+	+label:before{display: none;}
+}
+.flexslider {
+    .slides {
+        zoom: 1;
+    }
+}
+.category-dropdown{
+    > .sub-category-list{
+        &:after{
+            left: 32%;
+        }
+        &:before{
+            left: 64%;
+        }
+    }
+}

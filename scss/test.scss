@@ -1,0 +1,26 @@
+//variables
+$primery_color: #fff;
+$perWidth: 100%;
+@import "colors";
+
+//I dont want to appear this coment in css
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background-color: $test;
+
+	.header{
+		width: $perWidth * 10;
+		height:20px;
+	}
+	&:hover{
+		color: red;
+	}
+
+	.testparent_selector &{
+		cursor: pointer;
+	}
+		
+	
+	
+}
