@@ -1,0 +1,14 @@
+
+/* TEAM */
+Your title : Maks Ryabko.
+Site : ryabkomaks@gmail.com, skype crzyasistant.                         
+Twitter: твой ник на твитере.                       
+Location : Kiev, Ukraine.
+							
+/* THANKS */							
+Name : uawc.com, humanstxt.org.
+                            
+/* SITE */                            
+Last update : YYYY/MM/DD                   
+Standards : HTML5, CSS3.
+Components : Modernizr, jQuery, normalize.css, grid.
